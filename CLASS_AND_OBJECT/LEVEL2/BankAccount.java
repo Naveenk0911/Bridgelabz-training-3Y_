@@ -4,6 +4,11 @@ public class BankAccount {
 	private String accountHolder;
 	private String accountNumber;
 	private double balance;
+	public void displayAccountDetails() {
+    System.out.println("Account Holder: " + accountHolder);
+    System.out.println("Account Number: " + accountNumber);
+    System.out.println("Current Balance: " + balance);
+}
 	
 	public BankAccount(String accountHolder,String accountNumber,double balance) {
 		this.accountHolder = accountHolder;
